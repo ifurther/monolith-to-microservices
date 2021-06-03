@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/monolith:$1 .
+gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/$1:$2 .
